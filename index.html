@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Style CSS-->
+    <link rel="stylesheet" href="style.css">
+    <!-- icon -->
+    <link rel="icon" type="image/png" href="icon.png">
+    <title>Text To Speak</title>
+</head>
+<body>
+    <div class="container">
+        <h1>Text To Speak</h1>
+        <button id="toggle" class="btn btn-toggle">
+            Click Me!
+        </button>
+        <div id="text-box" class="text-box">
+            <div id="close" class="close">X</div>
+            <h3>Type the message you want to hear.</h3>
+            <p>Note: Not all can talk.</p>
+            <select id="voices"></select>
+            <textarea id="text" placeholder="Enter text to read"></textarea>
+            <button class="btn" id="read">Read text</button>
+        </div>
+        <main></main>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
